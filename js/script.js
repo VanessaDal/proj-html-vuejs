@@ -1,7 +1,20 @@
 var app=new Vue({
     el: '#app',
     data:{
-        nav:[{
+        firstrow:[ 
+         {
+            nome:"Download App",
+            url:"http://www.asnlsdk.it"
+        },
+
+        {
+            nome:"Advertise with us",
+            url:"http://www.asnlsdk.it"
+        }],
+
+        nav:[
+                
+            {
                 nome:"Home",
                 url:"http://www.asnlsdk.it"
             },
@@ -36,5 +49,11 @@ var app=new Vue({
             {
                 nome:"Contact",
                 url:"http://www.asnlsdk.it"
-            }]}
+            },
+
+        
+        ],
+
+        logo:["img/avada-food-logo.png"]
+    }
 })

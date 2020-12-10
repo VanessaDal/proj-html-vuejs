@@ -20,9 +20,9 @@
         <header>
             <div class="social">
                 <div class="social-left">
-                    <a href="">Download App</a>
+                    <a :href="firstrow[0].url">{{firstrow[0].nome}}</a>
                     <button class="ios">iOS</button>
-                    <a href="">Advertise with us</a>
+                    <a :href="firstrow[1].url">{{firstrow[1].nome}}</a>
                 </div>
                 <div class="social-icons">
                     <i class="fab fa-facebook-f"></i>
@@ -32,7 +32,7 @@
                 </div>
             </div>
             <div class="logo">
-                <img src="img/avada-food-logo.png" alt="">
+                <img :src="logo[0]" alt="">
             </div>
         </header>
 
