@@ -54,6 +54,8 @@ var app=new Vue({
         
         ],
 
-        logo:["img/avada-food-logo.png"]
+        logo:["img/avada-food-logo.png"],
+
+        social:["fab fa-facebook-f","fab fa-instagram", "fab fa-twitter", "fab fa-youtube"]
     }
 })

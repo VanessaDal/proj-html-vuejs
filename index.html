@@ -25,10 +25,10 @@
                     <a :href="firstrow[1].url">{{firstrow[1].nome}}</a>
                 </div>
                 <div class="social-icons">
-                    <i class="fab fa-facebook-f"></i>
-                    <i class="fab fa-instagram"></i>
+                    <i v-for="icon in social" :class="icon"></i>
+                    <!-- <i class="fab fa-instagram"></i>
                     <i class="fab fa-twitter"></i>
-                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-youtube"></i> -->
                 </div>
             </div>
             <div class="logo">
