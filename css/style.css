@@ -124,8 +124,8 @@ nav {
 }
 
 .inside-journal {
-  width: 70%;
-  height: 400px;
+  width: 85%;
+  height: 500px;
   background-color: white;
   position: absolute;
   bottom: 120px;
@@ -150,4 +150,14 @@ nav {
   height: 1px;
   background-color: #e6e4e4;
   margin-top: 12px;
+}
+
+.bottom-journal {
+  display: flex;
+  justify-content: space-around;
+}
+
+.schede * {
+  margin-bottom: 15px;
+  text-align: center;
 }
