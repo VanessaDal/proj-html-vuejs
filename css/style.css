@@ -153,11 +153,20 @@ nav {
 }
 
 .bottom-journal {
+  width: 100%;
   display: flex;
   justify-content: space-around;
+}
+
+.schede {
+  width: 30%;
 }
 
 .schede * {
   margin-bottom: 15px;
   text-align: center;
+}
+
+.schede h4 {
+  font-size: 20px;
 }
