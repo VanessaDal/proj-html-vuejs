@@ -15,7 +15,7 @@
 <body>
 
     <!-- DIV CONTENITORE -->
-    <div class="main-container">
+    <div id="app" class="main-container">
 
         <header>
             <div class="social">
@@ -37,7 +37,13 @@
         </header>
 
 
-        <nav></nav>
+        <nav>
+            <div class="link-nav">
+                <ul>
+                    <li v-for="link in nav"><a :href= "link.url" >{{link.nome}}</a></li>
+                </ul>
+            </div>
+        </nav>
 
 
         <!-- JUMBOTRON SECTION -->
