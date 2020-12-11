@@ -71,6 +71,18 @@ var app=new Vue({
                 icon:"fas fa-envelope",
                 info:"info@yourdomain.com"
             }
+        ],
+
+        badges:[
+            {
+                img:"img/download-android.png",
+                url:"http://www.asnlsdk.it"
+            },
+
+            {
+                img:"img/download-app-store.png",
+                url:"http://www.asnlsdk.it"
+            }
         ]
     }
 })
