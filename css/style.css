@@ -253,3 +253,20 @@ nav {
   font-weight: bold;
   margin-top: 10%;
 }
+
+.orange {
+  color: #fd8942;
+  margin-left: 7%;
+  font-weight: bold;
+}
+
+.contacts {
+  color: #93908c;
+  padding: 8%;
+  display: flex;
+  font-size: 17px;
+}
+
+.contacts i {
+  margin-right: 8%;
+}

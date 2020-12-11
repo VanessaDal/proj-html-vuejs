@@ -58,7 +58,18 @@ var app=new Vue({
 
         contact:[
             {
-                icon:"ciao"
+                icon:"fas fa-map-marker-alt",
+                info:" 775 New York Ave, Brooklyn, Kings, New York 11203"
+            },
+
+            {
+                icon:"fas fa-phone",
+                info:" + 0100-505-0000"
+            },
+
+            {
+                icon:"fas fa-envelope",
+                info:"info@yourdomain.com"
             }
         ]
     }

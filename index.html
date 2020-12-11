@@ -115,7 +115,14 @@
                             <li v-for="link in nav"><a :href= "link.url" >{{link.nome}}</a></li>
                         </ul>
                     </div>
-                    <div class="footer-section"></div>
+                    <div class="footer-section">
+                        <h4 class="orange">C O N T A C T</h4>
+                        <div v-for="section in contact" class="contacts">
+                            <i :class="section.icon"></i>
+                            <h4>{{section.info}}</h4>
+
+                        </div>
+                    </div>  
                     <div class="footer-section"></div>
                 </div>
             </div>
