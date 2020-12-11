@@ -199,3 +199,45 @@ nav {
   font-size: 15px;
   color: #bebec0;
 }
+
+/* FOOTER */
+
+.main-footer {
+  width: 100%;
+  height: 400px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.pre-footer-section {
+  width: 70%;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-section {
+  width: 25%;
+  height: 70%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-section img {
+  align-self: flex-start;
+  height: 100px;
+}
+
+.footer-section .social-icons {
+  width: 50%;
+  margin-bottom: 100px;
+}
+
+.footer-section .social-icons * {
+  color: #94908b;
+  font-size: 18px;
+}

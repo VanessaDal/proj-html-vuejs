@@ -36,7 +36,7 @@ var app=new Vue({
 
             {
     
-                nome:"Places",
+                nome:"About",
                 url:"http://www.asnlsdk.it"
             
             },
@@ -45,17 +45,21 @@ var app=new Vue({
                 nome:"Contact",
                 url:"http://www.asnlsdk.it"
             },
-
-            {
-                nome:"Contact",
-                url:"http://www.asnlsdk.it"
-            },
-
         
         ],
 
-        logo:["img/avada-food-logo.png"],
+        icons:["fas fa-search"],
 
-        social:["fab fa-facebook-f","fab fa-instagram", "fab fa-twitter", "fab fa-youtube"]
+        logohead:["img/avada-food-logo.png"],
+
+        social:["fab fa-facebook-f","fab fa-instagram", "fab fa-twitter", "fab fa-youtube"],
+
+        logofooter:["img/avada-food-logo-mob-2x-200x87.png"],
+
+        contact:[
+            {
+                icon:"ciao"
+            }
+        ]
     }
 })

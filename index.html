@@ -21,18 +21,15 @@
             <div class="social">
                 <div class="social-left">
                     <a :href="firstrow[0].url">{{firstrow[0].nome}}</a>
-                    <button class="ios">iOS</button>
+                    <button type="button" class="ios">iOS</button>
                     <a :href="firstrow[1].url">{{firstrow[1].nome}}</a>
                 </div>
                 <div class="social-icons">
                     <i v-for="icon in social" :class="icon"></i>
-                    <!-- <i class="fab fa-instagram"></i>
-                    <i class="fab fa-twitter"></i>
-                    <i class="fab fa-youtube"></i> -->
                 </div>
             </div>
             <div class="logo">
-                <img :src="logo[0]" alt="">
+                <img :src="logohead[0]" alt="">
             </div>
         </header>
 
@@ -41,6 +38,7 @@
             <div class="link-nav">
                 <ul>
                     <li v-for="link in nav"><a :href= "link.url" >{{link.nome}}</a></li>
+                    <li><i :class="icons[0]"></i></li>
                 </ul>
             </div>
         </nav>
@@ -103,7 +101,26 @@
         <!-- RANDOM PICTURES -->
         <section></section>
 
-        <footer></footer>
+        <footer>
+            <div class="main-footer">
+                <div class="pre-footer-section">
+                    <div class="footer-section">
+                        <img :src="logofooter[0]" alt="">
+                        <div class="social-icons footer">
+                            <i v-for="icon in social" :class="icon"></i>
+                        </div>
+                    </div>
+                    <div class="footer-section">
+                        <ul>
+                            <li v-for="link in nav"><a :href= "link.url" >{{link.nome}}</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section"></div>
+                    <div class="footer-section"></div>
+                </div>
+            </div>
+            <div class="bottom-footer"></div>
+        </footer>
 
     </div>
 <script src="js/script.js"></script>
