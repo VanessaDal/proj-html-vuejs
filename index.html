@@ -116,7 +116,23 @@
         </section>
 
         <!-- CULINARY COLLECTION -->
-        <section></section>
+        <section class="culinary-coll">
+            <div class="inside-culinary">
+                <div class="box-text">
+                    <div class="recipe-text">
+                        <h4>C U L I N A R Y &nbsp;&nbsp; C O L L E C T I O N</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio tempore aperiam non, qui doloribus.</p>
+                    </div>
+                </div>
+                <div class="culinary-cards">
+                    <div class="culi-card" v-for="card in culinarycards">
+                        <img :src="card.img" alt="">
+                        <h4>{{card.nome}}</h4>
+                    </div>
+                </div>
+            </div>
+
+        </section>
 
         <!-- FARM TO TABLE -->
         <section></section>

@@ -84,6 +84,47 @@ var app=new Vue({
                 url:"http://www.asnlsdk.it"
             }
         ],
-        recipepics:["img/Mixed-fruits-400x263.jpg", "img/fi-water-side-rest-400x263.jpg", "img/r-michelle-tsang-500721-unsplash-min-400x263.jpg","img/Mixed-fruits-400x263.jpg", "img/fi-water-side-rest-400x263.jpg", "img/r-michelle-tsang-500721-unsplash-min-400x263.jpg","img/Mixed-fruits-400x263.jpg", "img/fi-water-side-rest-400x263.jpg"]
+        recipepics:["img/Mixed-fruits-400x263.jpg", "img/fi-water-side-rest-400x263.jpg", "img/r-michelle-tsang-500721-unsplash-min-400x263.jpg","img/Mixed-fruits-400x263.jpg", "img/fi-water-side-rest-400x263.jpg", "img/r-michelle-tsang-500721-unsplash-min-400x263.jpg","img/Mixed-fruits-400x263.jpg", "img/fi-water-side-rest-400x263.jpg"],
+
+        culinarycards:[
+            {
+                nome:"BAKERY",
+                img:"img/baking-recipes.png"
+            }, 
+
+            {
+                nome:"DINNER",
+                img:"img/dinner-recipes.png"
+            },
+
+            {
+                nome: "DRINKS",
+                img:"img/drinks-recipes.png"
+            } ,
+
+            {
+                nome: "RECIPES",
+                img:"img/premium-recipes.png"
+            } ,
+
+            {
+                nome:"QUICK & EASY",
+                img:"img/quick-easy-recipes.png"
+            } ,
+
+            {
+                nome:"SOUPS",
+                img:"img/soups-recipes.png"
+            } ,
+
+            {
+                nome:"STAFF PICKS",
+                img:"img/staff-picks.png"
+            },
+
+            {
+                nome:"RECIPES",
+                img:"img/baking-recipes.png"
+            } ]
     }
 })
