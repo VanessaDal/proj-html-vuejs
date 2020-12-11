@@ -83,6 +83,7 @@ var app=new Vue({
                 img:"img/download-app-store.png",
                 url:"http://www.asnlsdk.it"
             }
-        ]
+        ],
+        recipepics:["img/Mixed-fruits-400x263.jpg", "img/fi-water-side-rest-400x263.jpg", "img/r-michelle-tsang-500721-unsplash-min-400x263.jpg","img/Mixed-fruits-400x263.jpg", "img/fi-water-side-rest-400x263.jpg", "img/r-michelle-tsang-500721-unsplash-min-400x263.jpg","img/Mixed-fruits-400x263.jpg", "img/fi-water-side-rest-400x263.jpg"]
     }
 })

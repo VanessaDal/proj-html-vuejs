@@ -90,11 +90,11 @@
         <section class="popular-recipes">
             <div class="inside-recipes">
                 <div class="box-text">
-                <div class="recipe-text">
-                    <h4>P O P U L A R &nbsp;&nbsp; R E C I P E S</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio tempore aperiam non, qui doloribus.</p>
+                    <div class="recipe-text">
+                        <h4>P O P U L A R &nbsp;&nbsp; R E C I P E S</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio tempore aperiam non, qui doloribus.</p>
+                    </div>
                 </div>
-                 </div>
                 <div class="recipes">
                     <div class="recipe-info">
                         <img src="img/Yogurt-Nan-600x395.jpg" alt="">
@@ -108,7 +108,9 @@
                             <button type="button" class="learn"> LEARN MORE</button>
                         </div>
                     </div>
-                    <div class="recipe-pics"></div>
+                    <div class="recipe-pics">
+                        <img v-for="pic in recipepics" :src="pic" alt="">
+                    </div>
                 </div>
             </div>
         </section>
