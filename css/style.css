@@ -241,3 +241,15 @@ nav {
   color: #94908b;
   font-size: 18px;
 }
+
+.footer-section ul {
+  margin-left: 20%;
+  font-size: 18px;
+  color: #434347;
+}
+
+.footer-section ul * {
+  color: #434347;
+  font-weight: bold;
+  margin-top: 10%;
+}
