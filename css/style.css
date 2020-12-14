@@ -366,6 +366,17 @@ nav {
   font-size: 14px;
 }
 
+/* RANDOM PICTURES */
+
+.random-pics {
+  display: flex;
+  width: 100%;
+}
+
+.random-pics img {
+  height: 249px;
+}
+
 /* FOOTER */
 
 .main-footer {
