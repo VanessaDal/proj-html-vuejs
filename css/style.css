@@ -179,10 +179,15 @@ nav {
 
 .schede {
   width: 30%;
+  opacity: 1;
+  position: relative;
+  background-color: rgba(175, 114, 64, 0);
 }
 
 .schede img {
   height: 250px;
+  opacity: 1;
+  background-color: rgba(175, 114, 64, 0.5);
 }
 
 .schede * {
@@ -440,4 +445,58 @@ nav {
 .bottom-footer p {
   color: #94908b;
   font-size: 12px;
+}
+
+/* HOVER */
+
+.middle {
+  width: 50%;
+  height: 30%;
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 20%;
+  left: 25%;
+  /* transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); */
+}
+
+.schede:hover > img {
+  /* background-color: rgba(175, 114, 64, 0.5); */
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+.schede:hover .middle {
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle-text {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: flex-start;
+  text-align: center;
+}
+
+.middle-text a {
+  align-self: center;
+}
+
+.middle-text .fa-paperclip {
+  font-size: 20px;
+  padding: 15px;
+  align-self: center;
+  border-radius: 100%;
+  background-color: white;
+  color: black;
+}
+
+.middle-text h4 {
+  color: black;
 }
