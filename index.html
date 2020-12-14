@@ -135,7 +135,7 @@
                 </div>
                 <div class="culinary-cards">
                     <div class="culi-card" v-for="card in culinarycards">
-                        <img :src="card.img" alt="">
+                        <a :href="card.url"><img :src="card.img" alt=""></a>
                         <h4>{{card.nome}}</h4>
                     </div>
                 </div>
