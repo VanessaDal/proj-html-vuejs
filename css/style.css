@@ -33,6 +33,10 @@ header {
   padding-top: 5px;
 }
 
+.social:hover {
+  cursor: pointer;
+}
+
 .social-left a {
   color: #9c9894;
   font-size: 13px;
@@ -80,6 +84,8 @@ nav {
   color: #5b5b5f;
   font-weight: bold;
 }
+
+/* JUMBOTRON */
 
 .jumbotron {
   background-image: url("../img/single-post-img3-800x527.jpg");
@@ -133,6 +139,8 @@ nav {
   color: white;
   vertical-align: center;
 }
+
+/* FOODIE JOURNAL */
 
 .journal {
   width: 100%;
