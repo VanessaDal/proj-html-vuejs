@@ -307,6 +307,10 @@ nav {
   margin-top: 20px;
 }
 
+.learn:hover {
+  cursor: pointer;
+}
+
 /* CULINARY COLLECTION */
 
 .culinary-coll {
