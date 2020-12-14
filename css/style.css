@@ -181,7 +181,12 @@ nav {
   width: 30%;
   opacity: 1;
   position: relative;
-  background-color: rgba(175, 114, 64, 0);
+  background: rgb(245, 96, 7);
+  background: linear-gradient(
+    0deg,
+    rgba(245, 96, 7, 1) 42%,
+    rgba(230, 109, 37, 0.3536765047816002) 100%
+  );
 }
 
 .schede img {
@@ -343,13 +348,13 @@ nav {
   opacity: 0;
   position: absolute;
   width: 100%;
-  height: 100%;
-  background-color: #fc7625;
-  top: 0px;
+  height: 30%;
+  background: #fc7523;
+  bottom: 0px;
 }
 
 .culi-card:hover .overlay-card {
-  opacity: 0.5;
+  opacity: 0.6;
   cursor: pointer;
 }
 
@@ -472,7 +477,12 @@ nav {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #fc7625;
+  background: rgb(245, 96, 7);
+  background: linear-gradient(
+    0deg,
+    rgba(245, 96, 7, 1) 42%,
+    rgba(230, 109, 37, 0.3536765047816002) 100%
+  );
   padding-top: 40px;
   /* transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%); */
