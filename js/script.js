@@ -89,42 +89,50 @@ var app=new Vue({
         culinarycards:[
             {
                 nome:"BAKERY",
-                img:"img/baking-recipes.png"
+                img:"img/baking-recipes.png",
+                url:"http://www.asnlsdk.it"
             }, 
 
             {
                 nome:"DINNER",
-                img:"img/dinner-recipes.png"
+                img:"img/dinner-recipes.png",
+                url:"http://www.asnlsdk.it"
             },
 
             {
                 nome: "DRINKS",
-                img:"img/drinks-recipes.png"
+                img:"img/drinks-recipes.png",
+                url:"http://www.asnlsdk.it"
             } ,
 
             {
                 nome: "RECIPES",
-                img:"img/premium-recipes.png"
+                img:"img/premium-recipes.png",
+                url:"http://www.asnlsdk.it"
             } ,
 
             {
                 nome:"QUICK & EASY",
-                img:"img/quick-easy-recipes.png"
+                img:"img/quick-easy-recipes.png",
+                url:"http://www.asnlsdk.it"
             } ,
 
             {
                 nome:"SOUPS",
-                img:"img/soups-recipes.png"
+                img:"img/soups-recipes.png",
+                url:"http://www.asnlsdk.it"
             } ,
 
             {
                 nome:"STAFF PICKS",
-                img:"img/staff-picks.png"
+                img:"img/staff-picks.png",
+                url:"http://www.asnlsdk.it"
             },
 
             {
                 nome:"RECIPES",
-                img:"img/baking-recipes.png"
+                img:"img/baking-recipes.png",
+                url:"http://www.asnlsdk.it"
             } ]
     }
 })
