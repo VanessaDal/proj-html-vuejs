@@ -181,12 +181,6 @@ nav {
   width: 30%;
   opacity: 1;
   position: relative;
-  background: rgb(245, 96, 7);
-  background: linear-gradient(
-    0deg,
-    rgba(245, 96, 7, 1) 42%,
-    rgba(230, 109, 37, 0.3536765047816002) 100%
-  );
 }
 
 .schede img {
@@ -354,7 +348,7 @@ nav {
 }
 
 .culi-card:hover .overlay-card {
-  opacity: 0.6;
+  opacity: 0.5;
   cursor: pointer;
 }
 
