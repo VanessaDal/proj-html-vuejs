@@ -339,6 +339,7 @@ nav {
 }
 
 .overlay-card {
+  transition: 0.5s ease;
   opacity: 0;
   position: absolute;
   width: 100%;
