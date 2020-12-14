@@ -293,6 +293,10 @@ nav {
   flex-wrap: wrap;
 }
 
+.recipe-pics:hover {
+  cursor: pointer;
+}
+
 .recipe-pics img {
   height: 22%;
 }
